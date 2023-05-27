@@ -14,10 +14,17 @@ También hice este video de disponible en YouTube donde explico mi propuesta de 
 ![tutoria instalar](https://github.com/eliasbest07/hackathon-Infojobs/assets/26911843/e08fcede-a70b-4d70-9d2d-b63b18577a45)
 
 Tutoria para los pro 💪🏻😎
+
+Tienes que descargar la Carpeta Extension InfoJobs
+
 - 1 Abrir menú (en los tres puntos)
 - 2 Ir a Configuración en Google Chrome,
 - 3 Ir a Extensiones
 - 4 Activar Modo Desarrollador
 - 5 Hacer click en el botón cargar descomprimida
-- 6 Elegir la carpeta Extension InfJobs
+- 6 Elegir la carpeta Extension InfoJobs
 - 7 Hacer click en el botón Seleccionar carpeta 
+
+![capture extensión](https://github.com/eliasbest07/hackathon-Infojobs/assets/26911843/2817c148-4206-41a6-a455-1b872a119cf3)
+
+
