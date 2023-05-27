@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Agendar Entrevista InfoJobs</title>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+  <meta charset="UTF-8">
+  <!-- <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script> -->
+</head>
+<body>
+
+  <img id="imagen" src="icon48.png" alt="logo InfoJobs">
+  <img id="img-nombre" src="infojobs.png" alt="nombre InfoJobs">
+  <h2>Agendar Entrevista </h2>
+
+  <div class="checkbox-grid">
+    <label>
+      <input id="hib" type="checkbox" name="tipo" value="Híbrido">
+      Híbrido
+    </label>
+    <label>
+      <input id="pre" type="checkbox" name="tipo" value="Presencial">
+      Presencial
+    </label>
+    <label>
+      <input id="sin" type="checkbox" name="tipo" value="Sin especificar">
+      Sin especificar
+    </label>
+    <label>
+      <input id="ste" type="checkbox" name="tipo" value="Solo teletrabajo">
+      Solo teletrabajo
+    </label>
+  </div>
+  <br>
+
+  <form id="formulariobusqueda">
+    <label for="busqueda">Búsqueda:</label>
+    <br>
+    <input class="input" type="text" id="busqueda" name="busqueda" required>
+    <button class="button" id="btnbuscar" type="button">BUSCAR</button>
+  </form>
+  <!-- <img id="imagen" src="iconolupa.png" alt="Imagen de resultados"> -->
+  
+  <!-- <div id="progressContainer" class="mdl-progress mdl-js-progress mdl-progress__indeterminate"></div> -->
+
+  <ul id="resultados">
+    <img id="imagen-loading" src="loading.gif" alt="Imagen de resultados">
+    <!-- <div class="loader center"><span></span></div> -->
+  </ul>
+  <div class="container">
+    <button id="anterior-page">☚</button>
+    <label id="page-actual">1</label>
+    <label>-</label>
+    <label id="total-page">2</label>
+    <button id="siguiente-page">☛</button>
+  </div>
+
+  <form class="formulario-fecha" id="formulario">
+    <label for="fecha">Fecha de la entrevista:</label>
+    <input type="date" id="fecha" name="fecha" required>
+    <select id="hora" name="elementos">
+      <option value="opcion1">8:00</option>
+      <option value="opcion2">8:30</option>
+      <option value="opcion3">9:00</option>
+      <option value="opcion4">9:30</option>
+      <option value="opcion5">10:00</option>
+      <option value="opcion6">10:30</option>
+      <option value="opcion7">11:00</option>
+      <option value="opcion8">11:30</option>
+      <option value="opcion19">12:00</option>
+      <option value="opcion20">12:30</option>
+      <option value="opcion9">13:00</option>
+      <option value="opcion10">13:30</option>
+      <option value="opcion11">14:00</option>
+      <option value="opcion12">14:30</option>
+      <option value="opcion13">15:00</option>
+      <option value="opcion14">15:30</option>
+      <option value="opcion15">16:00</option>
+      <option value="opcion16">16:30</option>
+      <option value="opcion17">17:00</option>
+      <option value="opcion18">17:30</option>
+
+    </select>
+    <!-- Otros campos del formulario -->
+   <br>
+    <button id="agendar" type="submit" disabled>Agendar entrevista</button>
+  </form>
+
+
+
+
+  <script src="popup.js"></script>
+</body>
+</html>

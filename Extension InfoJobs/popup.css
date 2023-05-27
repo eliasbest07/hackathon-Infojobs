@@ -1,0 +1,263 @@
+.center {
+	display: block;
+	position: absolute;
+	top: 0; left: 0;
+	bottom: 0; right: 0;
+	margin: auto;
+}
+  .loaderContainer {
+    width: 50px; /* Ancho deseado */
+    height: 50px; /* Altura deseada */
+  }
+.loader::before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0; left: 0;
+	bottom: 0; right: auto;
+	margin: auto;
+	width: 8px;
+	height: 8px;
+	background: #e71d1d;
+	border-radius: 50%;
+	-webkit-animation: loader-5-2 2s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+	        animation: loader-5-2 2s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+}
+@-webkit-keyframes loader-5-2 {
+	0%   { -webkit-transform: translate3d(0, 0, 0) scale(1); }
+	50%  { -webkit-transform: translate3d(24px, 0, 0) scale(.5); }
+	100% { -webkit-transform: translate3d(0, 0, 0) scale(1); }
+}
+@keyframes loader-5-2 {
+	0%   { transform: translate3d(0, 0, 0) scale(1); }
+	50%  { transform: translate3d(24px, 0, 0) scale(.5); }
+	100% { transform: translate3d(0, 0, 0) scale(1); }
+}
+.loader::after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0; left: auto;
+	bottom: 0; right: 0;
+	margin: auto;
+	width: 8px;
+	height: 8px;
+	background: #e71d1d;
+	border-radius: 50%;
+	-webkit-animation: loader-5-3 2s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+	        animation: loader-5-3 2s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+}
+@-webkit-keyframes loader-5-3 {
+	0%   { -webkit-transform: translate3d(0, 0, 0) scale(1); }
+	50%  { -webkit-transform: translate3d(-24px, 0, 0) scale(.5); }
+	100% { -webkit-transform: translate3d(0, 0, 0) scale(1); }
+}
+@keyframes loader-5-3 {
+	0%   { transform: translate3d(0, 0, 0) scale(1); }
+	50%  { transform: translate3d(-24px, 0, 0) scale(.5); }
+	100% { transform: translate3d(0, 0, 0) scale(1); }
+}
+.loader span {
+	display: block;
+	position: absolute;
+	top: 0; left: 0;
+	bottom: 0; right: 0;
+	margin: auto;
+	height: 32px;
+	width: 32px;
+}
+.loader span::before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0; left: 0;
+	bottom: auto; right: 0;
+	margin: auto;
+	width: 8px;
+	height: 8px;
+	background: #e71d1d;
+	border-radius: 50%;
+	-webkit-animation: loader-5-4 2s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+	        animation: loader-5-4 2s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+}
+@-webkit-keyframes loader-5-4 {
+	0%   { -webkit-transform: translate3d(0, 0, 0) scale(1); }
+	50%  { -webkit-transform: translate3d(0, 24px, 0) scale(.5); }
+	100% { -webkit-transform: translate3d(0, 0, 0) scale(1); }
+}
+@keyframes loader-5-4 {
+	0%   { transform: translate3d(0, 0, 0) scale(1); }
+	50%  { transform: translate3d(0, 24px, 0) scale(.5); }
+	100% { transform: translate3d(0, 0, 0) scale(1); }
+}
+.loader span::after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: auto; left: 0;
+	bottom: 0; right: 0;
+	margin: auto;
+	width: 8px;
+	height: 8px;
+	background: #e71d1d;
+	border-radius: 50%;
+	-webkit-animation: loader-5-5 2s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+	        animation: loader-5-5 2s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+}
+@-webkit-keyframes loader-5-5 {
+	0%   { -webkit-transform: translate3d(0, 0, 0) scale(1); }
+	50%  { -webkit-transform: translate3d(0, -24px, 0) scale(.5); }
+	100% { -webkit-transform: translate3d(0, 0, 0) scale(1); }
+}
+@keyframes loader-5-5 {
+	0%   { transform: translate3d(0, 0, 0) scale(1); }
+	50%  { transform: translate3d(0, -24px, 0) scale(.5); }
+	100% { transform: translate3d(0, 0, 0) scale(1); }
+}
+
+#resultados {
+    width: 220px; /* Ajustar el ancho al contenedor padre */
+    height: 170px; /* Altura deseada */
+    overflow-x: scroll;/* Habilitar el scroll horizontal */
+     white-space: nowrap; /* Evitar el salto de línea de los elementos de lista */
+	 margin: 0;
+	 padding: 5px; /* Eliminar todo el relleno */
+	 overflow-y: hidden; /* Ocultar las barras de desplazamiento verticales */
+	 white-space: nowrap;
+
+	 display: flex;
+	 flex-direction: row;
+	 align-items: center;
+	 /* justify-content: center; */
+	
+}
+
+#resultados li {
+   display: inline-block; /* Mostrar los elementos de lista en línea
+    /* Estilos adicionales para los elementos de lista */
+/* 	flex: 1;*/ 
+	flex: 1;
+	text-align: center;  
+	 margin-top: 5px; /* Alinea el contenido hacia el centro horizontal */
+	 margin-bottom: 5px;
+
+	 /* margin-left: 5px; */
+}
+ #imagen-loading {
+	width: 80px; /* Ancho deseado */
+	height: 80px; /* Altura deseada */
+	display: none;/* Convertir la imagen en un bloque para aplicar margen automático */
+	margin: 0 auto; /* Margen automático para centrar horizontalmente */
+	margin-top: 10px;
+  
+}  
+.card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 10px; 
+	/* padding-right: 100px; */
+
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-radius: 4px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+
+	width: 180px;
+	height: 100px;
+
+  }
+  
+  .card-title {
+	/* overflow-wrap: break-word;  Alternativa: word-wrap: break-word; */
+	white-space: initial;
+ /* word-break: break-word; /* Para controlar la separación de palabras */
+  max-height: 70%; /* Altura máxima en 3 líneas (ajusta según tus necesidades) */
+  /* line-height: 1.2em; */
+  max-width: 80%;
+
+	line-height: 1.2;
+	-webkit-line-clamp: 5;
+	-webkit-box-orient: vertical;
+	/* white-space: nowrap; /* Evitar el ajuste de línea automático */
+ 	overflow: hidden; /*Ocultar el texto que desborda */
+ 	text-overflow: ellipsis; /* Mostrar puntos suspensivos (...) para indicar que hay más texto */
+  	word-wrap: break-word; 
+  }
+
+
+  
+  .card-description {
+	line-height: 1.3;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+  }
+
+  .card.selected {
+	background-color: #5b79faab; /* Color de fondo para el estado seleccionado */
+  }
+
+  .checkbox-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto auto;
+	gap: 10px;
+  }
+
+  .button {
+	display: inline-block;
+	padding: 1px 2px;
+	font-size: 15px;
+	cursor: pointer;
+	text-align: center;	
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: #ff6340;
+	border: none;
+	border-radius: 4px;
+	box-shadow: 0 3px #999;
+  }
+  
+  .button:hover {background-color: #ff4e27}
+  
+  .button:active {
+	background-color: #ff4e27;
+	box-shadow: 0 1px #666;
+	transform: translateY(4px);
+  }
+
+  .input {
+	width: 140px; /* Ajusta el valor según el ancho deseado */
+  }
+
+  .img-nombre{
+	width: 90px;
+	height: 50px;
+  }
+  .container {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	box-sizing: border-box;
+  }
+  
+  .container > * {
+	margin: 5px;
+  }
+
+  .formulario-fecha{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 5px;
+  }
+  
+  #agendar {
+	padding: 5px;
+  }
