@@ -13,7 +13,7 @@ También hice este video de disponible en YouTube donde explico mi propuesta de 
 # Instalación de Extensión:
 ![tutoria instalar](https://github.com/eliasbest07/hackathon-Infojobs/assets/26911843/e08fcede-a70b-4d70-9d2d-b63b18577a45)
 
-Tutoria para los pro 💪🏻😎
+Tutorial para los pro 💪🏻😎
 
 Tienes que descargar la Carpeta Extension InfoJobs
 
@@ -29,7 +29,7 @@ Tienes que descargar la Carpeta Extension InfoJobs
 
 # Nuevo diseño y tema Oscuro 
 
-https://hackathon-infojobs-page-p99wssgdk-eliasbest07.vercel.app/
+[Aquí puedes ver la página](https://hackathon-infojobs-page-git-main-eliasbest07.vercel.app/)
 
 Mejora aspectos de visuales, mejora de experiencia de usuario, más dinámica, más atractiva, más simple y algunas innovaciones
 
