@@ -10,7 +10,7 @@ Con la oportunidad de ofrecer valor a InfoJobs y con mi experiencia personal des
 También hice este video de disponible en YouTube donde explico mi propuesta de valor 
 
 
-# Instilación de Extensión:
+# Instalación de Extensión:
 ![tutoria instalar](https://github.com/eliasbest07/hackathon-Infojobs/assets/26911843/e08fcede-a70b-4d70-9d2d-b63b18577a45)
 
 Tutoria para los pro 💪🏻😎
