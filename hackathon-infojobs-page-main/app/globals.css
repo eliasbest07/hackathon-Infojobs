@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+body {
+  overflow-x: hidden;
+}
+/* 
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
+
+.dark {
+  /* Estilos para el tema oscuro */
+  background-color: #131d24;
+  color: #ffffff;
+  /* Otros estilos específicos para el tema oscuro */
+}
+.shadow-dark {
+  box-shadow: 0 2px 4px 0 rgba(68, 98, 117, 0.9); /* Reemplaza con el color y las propiedades de sombra deseadas */
+}
+
+.grid-container {
+  width: 900px;
+  height: 300px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 10px;
+}
+
+.custom-datepicker {
+  border: 1px solid #3e4b86;
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.custom-datepicker-calendar {
+  border: 1px solid #04154e;
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.custom-datepicker-day {
+  background-color: #f0f0f0;
+  color: #333;
+}
+.text-inf{
+  text-size-adjust: '28px';
+
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+.fle-container{
+  display: flex;
+  width: 800px;
+}
+.loading {
+  display: block;
+  margin: 0 auto;
+}
+.super{
+  z-index: 999;
+}
+@media (max-width: 1000px) {
+  .banner-always {
+    display: none;
+  }
+  .grid-container {
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(12, 1fr);
+    height: 380px;
+    margin: auto;
+
+
+  }
+  body{
+    width: 100%;
+  }
+}
