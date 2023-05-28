@@ -25,7 +25,8 @@ Tienes que descargar la Carpeta Extension InfoJobs
 - 6 Elegir la carpeta Extension InfoJobs
 - 7 Hacer click en el botón Seleccionar carpeta 
 
-![capture extensión](https://github.com/eliasbest07/hackathon-Infojobs/assets/26911843/2817c148-4206-41a6-a455-1b872a119cf3)
+![capture extensión](https://github.com/eliasbest07/hackathon-Infojobs/assets/26911843/3dacc44a-40fc-4f9d-a467-5d9891fc8161)
+
 
 # Nuevo diseño y tema Oscuro 
 
