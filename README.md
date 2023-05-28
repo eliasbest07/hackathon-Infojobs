@@ -1,4 +1,4 @@
-# hackathon-Infojobs, Agendar Entrevistas de 15 minutos
+# hackathon-InfoJobs, Agendar Entrevistas de 15 minutos
 Esta es mi participación en el Hackathon de midudev patrocinado por InfoJobs.
 
 Con la oportunidad de ofrecer valor a InfoJobs y con mi experiencia personal desarrollé:
